@@ -1,0 +1,1551 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+a.exe is a Catch v2.2.2 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Assignment CTOR
+  EmptyList copied to EmptyList
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:74
+...............................................................................
+
+Unit_Tester.cpp:79: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+Unit_Tester.cpp:81: 
+PASSED:
+  REQUIRE( result.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Assignment CTOR
+  LL copied into Empty LL
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:84
+...............................................................................
+
+Unit_Tester.cpp:91: 
+PASSED:
+  REQUIRE( list[0] == 5555 )
+with expansion:
+  5555 (0x15b3) == 5555 (0x15b3)
+
+Unit_Tester.cpp:92: 
+PASSED:
+  REQUIRE( list[1] == 100 )
+with expansion:
+  100 == 100
+
+Unit_Tester.cpp:94: 
+PASSED:
+  REQUIRE( result[0] == 5555 )
+with expansion:
+  5555 (0x15b3) == 5555 (0x15b3)
+
+Unit_Tester.cpp:95: 
+PASSED:
+  REQUIRE( result[1] == 100 )
+with expansion:
+  100 == 100
+
+-------------------------------------------------------------------------------
+Assignment CTOR
+  Big Integer Copy
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:97
+...............................................................................
+
+Unit_Tester.cpp:104: 
+PASSED:
+  REQUIRE( list[0] == BigInteger("111111") )
+with expansion:
+  111111 == 111111
+
+Unit_Tester.cpp:105: 
+PASSED:
+  REQUIRE( list[1] == BigInteger("222222") )
+with expansion:
+  222222 == 222222
+
+Unit_Tester.cpp:107: 
+PASSED:
+  REQUIRE( result[0] == BigInteger("111111") )
+with expansion:
+  111111 == 111111
+
+Unit_Tester.cpp:108: 
+PASSED:
+  REQUIRE( result[1] == BigInteger("222222") )
+with expansion:
+  222222 == 222222
+
+-------------------------------------------------------------------------------
+Move Constructor, [Move CTOR]
+  Move Empty List
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:114
+...............................................................................
+
+Unit_Tester.cpp:119: 
+PASSED:
+  REQUIRE( result.getSize() == 0 )
+with expansion:
+  0 == 0
+
+Unit_Tester.cpp:121: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Move Constructor, [Move CTOR]
+  Move List size 1
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:124
+...............................................................................
+
+Unit_Tester.cpp:130: 
+PASSED:
+  REQUIRE( result.getSize() == 1 )
+with expansion:
+  1 == 1
+
+Unit_Tester.cpp:131: 
+PASSED:
+  REQUIRE( result[0] == 1 )
+with expansion:
+  1 == 1
+
+Unit_Tester.cpp:133: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Move Constructor, [Move CTOR]
+  Move List size: 3
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:136
+...............................................................................
+
+Unit_Tester.cpp:144: 
+PASSED:
+  REQUIRE( result.getSize() == 3 )
+with expansion:
+  3 == 3
+
+Unit_Tester.cpp:145: 
+PASSED:
+  REQUIRE( result[0] == 1 )
+with expansion:
+  1 == 1
+
+Unit_Tester.cpp:146: 
+PASSED:
+  REQUIRE( result[1] == 3 )
+with expansion:
+  3 == 3
+
+Unit_Tester.cpp:147: 
+PASSED:
+  REQUIRE( result[2] == 2 )
+with expansion:
+  2 == 2
+
+Unit_Tester.cpp:149: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Move Constructor, [Move CTOR]
+  Big Integer Move
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:151
+...............................................................................
+
+Unit_Tester.cpp:158: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+Unit_Tester.cpp:161: 
+PASSED:
+  REQUIRE( result[0] == BigInteger("111111") )
+with expansion:
+  111111 == 111111
+
+Unit_Tester.cpp:162: 
+PASSED:
+  REQUIRE( result[1] == BigInteger("222222") )
+with expansion:
+  222222 == 222222
+
+Unit_Tester.cpp:163: 
+PASSED:
+  REQUIRE( result.getSize() == 2 )
+with expansion:
+  2 == 2
+
+-------------------------------------------------------------------------------
+Destructor
+  Destruct empty list
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:169
+...............................................................................
+
+Unit_Tester.cpp:172: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Destructor
+  Destruct LL size 2
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:175
+...............................................................................
+
+Unit_Tester.cpp:181: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Destructor
+  Destruct LL size 1
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:184
+...............................................................................
+
+Unit_Tester.cpp:189: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Destructor
+  Big Integer Destruct
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:191
+...............................................................................
+
+Unit_Tester.cpp:196: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Assignment Operator
+  Assign Empty List to Empty List
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:202
+...............................................................................
+
+Unit_Tester.cpp:208: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+Unit_Tester.cpp:210: 
+PASSED:
+  REQUIRE( result.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Assignment Operator
+  Assign size 2 to Empty
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:213
+...............................................................................
+
+Unit_Tester.cpp:221: 
+PASSED:
+  REQUIRE( list[0] == 55 )
+with expansion:
+  55 == 55
+
+Unit_Tester.cpp:222: 
+PASSED:
+  REQUIRE( list[1] == 6 )
+with expansion:
+  6 == 6
+
+Unit_Tester.cpp:224: 
+PASSED:
+  REQUIRE( result[0] == 55 )
+with expansion:
+  55 == 55
+
+Unit_Tester.cpp:225: 
+PASSED:
+  REQUIRE( result[1] == 6 )
+with expansion:
+  6 == 6
+
+-------------------------------------------------------------------------------
+Assignment Operator
+  Assign size 2 into size 2
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:228
+...............................................................................
+
+Unit_Tester.cpp:239: 
+PASSED:
+  REQUIRE( list[0] == 55 )
+with expansion:
+  55 == 55
+
+Unit_Tester.cpp:240: 
+PASSED:
+  REQUIRE( list[1] == 100 )
+with expansion:
+  100 == 100
+
+Unit_Tester.cpp:242: 
+PASSED:
+  REQUIRE( result[0] == 55 )
+with expansion:
+  55 == 55
+
+Unit_Tester.cpp:243: 
+PASSED:
+  REQUIRE( result[1] == 100 )
+with expansion:
+  100 == 100
+
+-------------------------------------------------------------------------------
+Assignment Operator
+  Big Integer Assign
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:246
+...............................................................................
+
+Unit_Tester.cpp:253: 
+PASSED:
+  REQUIRE( list[0] == BigInteger("111111") )
+with expansion:
+  111111 == 111111
+
+Unit_Tester.cpp:254: 
+PASSED:
+  REQUIRE( list[1] == BigInteger("222222") )
+with expansion:
+  222222 == 222222
+
+Unit_Tester.cpp:256: 
+PASSED:
+  REQUIRE( result[0] == BigInteger("111111") )
+with expansion:
+  111111 == 111111
+
+Unit_Tester.cpp:257: 
+PASSED:
+  REQUIRE( result[1] == BigInteger("222222") )
+with expansion:
+  222222 == 222222
+
+-------------------------------------------------------------------------------
+Move assignment operator overload (&&)
+  Empty to Empty
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:263
+...............................................................................
+
+Unit_Tester.cpp:269: 
+PASSED:
+  REQUIRE( result.getSize() == 0 )
+with expansion:
+  0 == 0
+
+Unit_Tester.cpp:272: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Move assignment operator overload (&&)
+  Move size 2 to Empty
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:275
+...............................................................................
+
+Unit_Tester.cpp:283: 
+PASSED:
+  REQUIRE( result.getSize() == 2 )
+with expansion:
+  2 == 2
+
+Unit_Tester.cpp:284: 
+PASSED:
+  REQUIRE( result[0] == "55" )
+with expansion:
+  "55" == "55"
+
+Unit_Tester.cpp:285: 
+PASSED:
+  REQUIRE( result[1] == "100" )
+with expansion:
+  "100" == "100"
+
+Unit_Tester.cpp:288: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Move assignment operator overload (&&)
+  Move size 2 to size 2
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:291
+...............................................................................
+
+Unit_Tester.cpp:302: 
+PASSED:
+  REQUIRE( result.getSize() == 2 )
+with expansion:
+  2 == 2
+
+Unit_Tester.cpp:303: 
+PASSED:
+  REQUIRE( result[0] == "55" )
+with expansion:
+  "55" == "55"
+
+Unit_Tester.cpp:304: 
+PASSED:
+  REQUIRE( result[1] == "100" )
+with expansion:
+  "100" == "100"
+
+Unit_Tester.cpp:307: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Move assignment operator overload (&&)
+  Big Integer Copy
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:310
+...............................................................................
+
+Unit_Tester.cpp:317: 
+PASSED:
+  REQUIRE( list[0] == BigInteger("111111") )
+with expansion:
+  111111 == 111111
+
+Unit_Tester.cpp:318: 
+PASSED:
+  REQUIRE( list[1] == BigInteger("222222") )
+with expansion:
+  222222 == 222222
+
+Unit_Tester.cpp:320: 
+PASSED:
+  REQUIRE( result[0] == BigInteger("111111") )
+with expansion:
+  111111 == 111111
+
+Unit_Tester.cpp:321: 
+PASSED:
+  REQUIRE( result[1] == BigInteger("222222") )
+with expansion:
+  222222 == 222222
+
+-------------------------------------------------------------------------------
+Test Equals
+  Size 2 == size 2
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:327
+...............................................................................
+
+Unit_Tester.cpp:341: 
+PASSED:
+  REQUIRE( (list == temp2) )
+with expansion:
+  true
+
+-------------------------------------------------------------------------------
+Test Equals
+  Empty == Empty
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:344
+...............................................................................
+
+Unit_Tester.cpp:349: 
+PASSED:
+  REQUIRE( (list == temp2) )
+with expansion:
+  true
+
+-------------------------------------------------------------------------------
+Test Equals
+  Size 1 == Empty
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:352
+...............................................................................
+
+Unit_Tester.cpp:360: 
+PASSED:
+  REQUIRE( !(list == temp2) )
+with expansion:
+  true
+
+-------------------------------------------------------------------------------
+Test Equals
+  Same 2 items, different order
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:363
+...............................................................................
+
+Unit_Tester.cpp:375: 
+PASSED:
+  REQUIRE( !(list == temp2) )
+with expansion:
+  true
+
+-------------------------------------------------------------------------------
+Test Equals
+  Big Integer ==, equal list
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:377
+...............................................................................
+
+Unit_Tester.cpp:386: 
+PASSED:
+  REQUIRE( (list == result) )
+with expansion:
+  true
+
+-------------------------------------------------------------------------------
+Test Equals
+  Big Integer ==, not equal list
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:388
+...............................................................................
+
+Unit_Tester.cpp:398: 
+PASSED:
+  REQUIRE( !(list == result) )
+with expansion:
+  true
+
+-------------------------------------------------------------------------------
+Test [] operator
+  Retrieve using []
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:404
+...............................................................................
+
+Unit_Tester.cpp:412: 
+PASSED:
+  REQUIRE( res == testStr )
+with expansion:
+  "test" == "test"
+
+-------------------------------------------------------------------------------
+Test [] operator
+  Retriece [0] from list size 2
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:415
+...............................................................................
+
+Unit_Tester.cpp:426: 
+PASSED:
+  REQUIRE( res == testStr )
+with expansion:
+  "test" == "test"
+
+-------------------------------------------------------------------------------
+Test [] operator
+  Retrieving [1] from list size 2
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:429
+...............................................................................
+
+Unit_Tester.cpp:440: 
+PASSED:
+  REQUIRE( res == testStr2 )
+with expansion:
+  "test2" == "test2"
+
+-------------------------------------------------------------------------------
+Test [] operator
+  Big Integer Assign[0]
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:442
+...............................................................................
+
+Unit_Tester.cpp:449: 
+PASSED:
+  REQUIRE( list[0] == res )
+with expansion:
+  111111 == 111111
+
+-------------------------------------------------------------------------------
+Test Subscript Set
+  Assign [0]
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:455
+...............................................................................
+
+Unit_Tester.cpp:464: 
+PASSED:
+  REQUIRE( test[0] == toReplace )
+with expansion:
+  "test2" == "test2"
+
+-------------------------------------------------------------------------------
+Test Subscript Set
+  Assign [0] over old data
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:467
+...............................................................................
+
+Unit_Tester.cpp:477: 
+PASSED:
+  REQUIRE( test[0] == toReplace )
+with expansion:
+  "test2" == "test2"
+
+-------------------------------------------------------------------------------
+Test Subscript Set
+  Assign [1] in size 2
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:480
+...............................................................................
+
+Unit_Tester.cpp:490: 
+PASSED:
+  REQUIRE( test[1] == testStr )
+with expansion:
+  "test" == "test"
+
+-------------------------------------------------------------------------------
+Test Subscript Set
+  Assign [1] in size 2
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:493
+...............................................................................
+
+Unit_Tester.cpp:503: 
+PASSED:
+  REQUIRE( test[1] == toReplace )
+with expansion:
+  "test2" == "test2"
+
+-------------------------------------------------------------------------------
+Test Subscript Set
+  Big Integer Assign[0]
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:506
+...............................................................................
+
+Unit_Tester.cpp:513: 
+PASSED:
+  REQUIRE( list[0] == BigInteger("333333") )
+with expansion:
+  333333 == 333333
+
+Unit_Tester.cpp:514: 
+PASSED:
+  REQUIRE( list[1] == BigInteger("222222") )
+with expansion:
+  222222 == 222222
+
+-------------------------------------------------------------------------------
+Addition
+  Empty List + Empty List
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:520
+...............................................................................
+
+Unit_Tester.cpp:529: 
+PASSED:
+  REQUIRE( (result == testList) )
+with expansion:
+  true
+
+Unit_Tester.cpp:530: 
+PASSED:
+  REQUIRE( result.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Addition
+  Size 1 + size 0
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:533
+...............................................................................
+
+Unit_Tester.cpp:545: 
+PASSED:
+  REQUIRE( (result == testList) )
+with expansion:
+  true
+
+Unit_Tester.cpp:546: 
+PASSED:
+  REQUIRE( result.getSize() == 1 )
+with expansion:
+  1 == 1
+
+-------------------------------------------------------------------------------
+Addition
+  Size 0 + size 1
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:549
+...............................................................................
+
+Unit_Tester.cpp:561: 
+PASSED:
+  REQUIRE( (result == testList) )
+with expansion:
+  true
+
+Unit_Tester.cpp:562: 
+PASSED:
+  REQUIRE( result.getSize() == 1 )
+with expansion:
+  1 == 1
+
+-------------------------------------------------------------------------------
+Addition
+  Size 2 + size 1
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:565
+...............................................................................
+
+Unit_Tester.cpp:584: 
+PASSED:
+  REQUIRE( (result == testList) )
+with expansion:
+  true
+
+Unit_Tester.cpp:585: 
+PASSED:
+  REQUIRE( result.getSize() == 3 )
+with expansion:
+  3 == 3
+
+-------------------------------------------------------------------------------
+Addition
+  Big Integer + Big Integer
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:587
+...............................................................................
+
+Unit_Tester.cpp:598: 
+PASSED:
+  REQUIRE( ll[0] == BigInteger("111111") )
+with expansion:
+  111111 == 111111
+
+Unit_Tester.cpp:599: 
+PASSED:
+  REQUIRE( ll[1] == BigInteger("222222") )
+with expansion:
+  222222 == 222222
+
+Unit_Tester.cpp:600: 
+PASSED:
+  REQUIRE( ll[2] == BigInteger("333333") )
+with expansion:
+  333333 == 333333
+
+Unit_Tester.cpp:601: 
+PASSED:
+  REQUIRE( ll[3] == BigInteger("444444") )
+with expansion:
+  444444 == 444444
+
+-------------------------------------------------------------------------------
+Output Operator
+  Size 0
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:608
+...............................................................................
+
+Unit_Tester.cpp:612: 
+PASSED:
+  REQUIRE( "[Empty List]" == result )
+with expansion:
+  "[Empty List]" == "[Empty List]"
+
+-------------------------------------------------------------------------------
+Output Operator
+  Size 1
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:615
+...............................................................................
+
+Unit_Tester.cpp:622: 
+PASSED:
+  REQUIRE( "[55]" == result )
+with expansion:
+  "[55]" == "[55]"
+
+-------------------------------------------------------------------------------
+Output Operator
+  Big Integer List <<
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:632
+...............................................................................
+
+Unit_Tester.cpp:639: 
+PASSED:
+  REQUIRE( result == "[111111, 222222]" )
+with expansion:
+  "[111111, 222222]" == "[111111, 222222]"
+
+-------------------------------------------------------------------------------
+Test Add(data)
+  Add 'waffle' to empty list
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:645
+...............................................................................
+
+Unit_Tester.cpp:651: 
+PASSED:
+  REQUIRE( temp[0] == toAdd )
+with expansion:
+  "waffle" == "waffle"
+
+Unit_Tester.cpp:652: 
+PASSED:
+  REQUIRE( temp.getSize() == 1 )
+with expansion:
+  1 == 1
+
+-------------------------------------------------------------------------------
+Test Add(data)
+  Add 99 to list size 1
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:655
+...............................................................................
+
+Unit_Tester.cpp:663: 
+PASSED:
+  REQUIRE( temp[1] == toAdd2 )
+with expansion:
+  99 == 99
+
+Unit_Tester.cpp:664: 
+PASSED:
+  REQUIRE( temp.getSize() == 2 )
+with expansion:
+  2 == 2
+
+-------------------------------------------------------------------------------
+Test Add(data)
+  Big Integer Add 
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:667
+...............................................................................
+
+Unit_Tester.cpp:672: 
+PASSED:
+  REQUIRE( list[0] == BigInteger("111111") )
+with expansion:
+  111111 == 111111
+
+Unit_Tester.cpp:673: 
+PASSED:
+  REQUIRE( list[1] == BigInteger("222222") )
+with expansion:
+  222222 == 222222
+
+-------------------------------------------------------------------------------
+Test Add add(data,index)
+  Add <int>55 to empty list
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:691
+...............................................................................
+
+Unit_Tester.cpp:697: 
+PASSED:
+  REQUIRE( temp[0] == toAdd )
+with expansion:
+  55 == 55
+
+Unit_Tester.cpp:698: 
+PASSED:
+  REQUIRE( temp.getSize() == 1 )
+with expansion:
+  1 == 1
+
+-------------------------------------------------------------------------------
+Test Add add(data,index)
+  Add <int>6 to end of list with size:1
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:701
+...............................................................................
+
+Unit_Tester.cpp:709: 
+PASSED:
+  REQUIRE( temp[1] == toAdd6 )
+with expansion:
+  6 == 6
+
+Unit_Tester.cpp:710: 
+PASSED:
+  REQUIRE( temp.getSize() == 2 )
+with expansion:
+  2 == 2
+
+-------------------------------------------------------------------------------
+Test Add add(data,index)
+  Add <int>100 to middle of list with size:2
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:713
+...............................................................................
+
+Unit_Tester.cpp:723: 
+PASSED:
+  REQUIRE( temp[1] == toAdd100 )
+with expansion:
+  100 == 100
+
+Unit_Tester.cpp:724: 
+PASSED:
+  REQUIRE( temp.getSize() == 3 )
+with expansion:
+  3 == 3
+
+-------------------------------------------------------------------------------
+Test Add add(data,index)
+  Add <int>100 to front of list with size:1
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:727
+...............................................................................
+
+Unit_Tester.cpp:735: 
+PASSED:
+  REQUIRE( temp[0] == toAdd100 )
+with expansion:
+  100 == 100
+
+Unit_Tester.cpp:736: 
+PASSED:
+  REQUIRE( temp.getSize() == 2 )
+with expansion:
+  2 == 2
+
+-------------------------------------------------------------------------------
+Test Add add(data,index)
+  Big Integer Add 
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:739
+...............................................................................
+
+Unit_Tester.cpp:747: 
+PASSED:
+  REQUIRE( list[0] == BigInteger("333333") )
+with expansion:
+  333333 == 333333
+
+Unit_Tester.cpp:748: 
+PASSED:
+  REQUIRE( list[2] == BigInteger("222222") )
+with expansion:
+  222222 == 222222
+
+-------------------------------------------------------------------------------
+Remove data
+  Remove from Empty List
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:756
+...............................................................................
+
+Unit_Tester.cpp:763: 
+PASSED:
+  REQUIRE( result == false )
+with expansion:
+  false == false
+
+-------------------------------------------------------------------------------
+Remove data
+  Remove from size 1, data not in list
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:766
+...............................................................................
+
+Unit_Tester.cpp:774: 
+PASSED:
+  REQUIRE( result == false )
+with expansion:
+  false == false
+
+-------------------------------------------------------------------------------
+Remove data
+  Remove from size 1, data in list
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:777
+...............................................................................
+
+Unit_Tester.cpp:785: 
+PASSED:
+  REQUIRE( result )
+with expansion:
+  true
+
+Unit_Tester.cpp:786: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Remove data
+  Remove from size 3, data in list
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:789
+...............................................................................
+
+Unit_Tester.cpp:799: 
+PASSED:
+  REQUIRE( result )
+with expansion:
+  true
+
+Unit_Tester.cpp:800: 
+PASSED:
+  REQUIRE( list.getSize() == 2 )
+with expansion:
+  2 == 2
+
+Unit_Tester.cpp:802: 
+PASSED:
+  REQUIRE( list[0] == "incredible" )
+with expansion:
+  "incredible" == "incredible"
+
+Unit_Tester.cpp:803: 
+PASSED:
+  REQUIRE( list[1] == "cscd" )
+with expansion:
+  "cscd" == "cscd"
+
+-------------------------------------------------------------------------------
+Remove data
+  Remove from end of list size 3
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:806
+...............................................................................
+
+Unit_Tester.cpp:816: 
+PASSED:
+  REQUIRE( result )
+with expansion:
+  true
+
+Unit_Tester.cpp:817: 
+PASSED:
+  REQUIRE( list.getSize() == 2 )
+with expansion:
+  2 == 2
+
+Unit_Tester.cpp:819: 
+PASSED:
+  REQUIRE( list[0] == "wow" )
+with expansion:
+  "wow" == "wow"
+
+Unit_Tester.cpp:820: 
+PASSED:
+  REQUIRE( list[1] == "two" )
+with expansion:
+  "two" == "two"
+
+-------------------------------------------------------------------------------
+Remove by index, return data
+  Remove from size 1
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:834
+...............................................................................
+
+Unit_Tester.cpp:840: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+Unit_Tester.cpp:841: 
+PASSED:
+  REQUIRE( data == "55" )
+with expansion:
+  "55" == "55"
+
+-------------------------------------------------------------------------------
+Remove by index, return data
+  Remove from end of list size 3
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:844
+...............................................................................
+
+Unit_Tester.cpp:852: 
+PASSED:
+  REQUIRE( list.getSize() == 2 )
+with expansion:
+  2 == 2
+
+Unit_Tester.cpp:853: 
+PASSED:
+  REQUIRE( data == "77" )
+with expansion:
+  "77" == "77"
+
+Unit_Tester.cpp:854: 
+PASSED:
+  REQUIRE( list[0] == "100" )
+with expansion:
+  "100" == "100"
+
+Unit_Tester.cpp:855: 
+PASSED:
+  REQUIRE( list[1] == "55" )
+with expansion:
+  "55" == "55"
+
+-------------------------------------------------------------------------------
+Remove by index, return data
+  Remove from middle of size 3
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:858
+...............................................................................
+
+Unit_Tester.cpp:866: 
+PASSED:
+  REQUIRE( list.getSize() == 2 )
+with expansion:
+  2 == 2
+
+Unit_Tester.cpp:867: 
+PASSED:
+  REQUIRE( data == "55" )
+with expansion:
+  "55" == "55"
+
+Unit_Tester.cpp:868: 
+PASSED:
+  REQUIRE( list[0] == "100" )
+with expansion:
+  "100" == "100"
+
+Unit_Tester.cpp:869: 
+PASSED:
+  REQUIRE( list[1] == "100" )
+with expansion:
+  "100" == "100"
+
+-------------------------------------------------------------------------------
+Remove by index, return data
+  Remove from beginning of size 3
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:872
+...............................................................................
+
+Unit_Tester.cpp:880: 
+PASSED:
+  REQUIRE( list.getSize() == 2 )
+with expansion:
+  2 == 2
+
+Unit_Tester.cpp:881: 
+PASSED:
+  REQUIRE( data == "100" )
+with expansion:
+  "100" == "100"
+
+Unit_Tester.cpp:882: 
+PASSED:
+  REQUIRE( list[0] == "55" )
+with expansion:
+  "55" == "55"
+
+Unit_Tester.cpp:883: 
+PASSED:
+  REQUIRE( list[1] == "100" )
+with expansion:
+  "100" == "100"
+
+-------------------------------------------------------------------------------
+Remove by index, return data
+  Remove BigInteger
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:886
+...............................................................................
+
+Unit_Tester.cpp:893: 
+PASSED:
+  REQUIRE( list.getSize() == 1 )
+with expansion:
+  1 == 1
+
+Unit_Tester.cpp:894: 
+PASSED:
+  REQUIRE( data == BigInteger("123123") )
+with expansion:
+  123123 == 123123
+
+Unit_Tester.cpp:895: 
+PASSED:
+  REQUIRE( list[0] == BigInteger("456456") )
+with expansion:
+  456456 == 456456
+
+-------------------------------------------------------------------------------
+Test removeAll(data)
+  Test remove from list size:0
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:901
+...............................................................................
+
+Unit_Tester.cpp:906: 
+PASSED:
+  REQUIRE( result == false )
+with expansion:
+  false == false
+
+-------------------------------------------------------------------------------
+Test removeAll(data)
+  Remove all members of list
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:909
+...............................................................................
+
+Unit_Tester.cpp:920: 
+PASSED:
+  REQUIRE( result )
+with expansion:
+  true
+
+Unit_Tester.cpp:921: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Test removeAll(data)
+  Remove everything from size 1
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:924
+...............................................................................
+
+Unit_Tester.cpp:930: 
+PASSED:
+  REQUIRE( result )
+with expansion:
+  true
+
+Unit_Tester.cpp:931: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Test removeAll(data)
+  Remove from beginning of list
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:934
+...............................................................................
+
+Unit_Tester.cpp:941: 
+PASSED:
+  REQUIRE( result )
+with expansion:
+  true
+
+Unit_Tester.cpp:942: 
+PASSED:
+  REQUIRE( list.getSize() == 1 )
+with expansion:
+  1 == 1
+
+Unit_Tester.cpp:943: 
+PASSED:
+  REQUIRE( list[0] == "55" )
+with expansion:
+  "55" == "55"
+
+-------------------------------------------------------------------------------
+Test removeAll(data)
+  Remove from end of list
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:946
+...............................................................................
+
+Unit_Tester.cpp:953: 
+PASSED:
+  REQUIRE( result )
+with expansion:
+  true
+
+Unit_Tester.cpp:954: 
+PASSED:
+  REQUIRE( list.getSize() == 1 )
+with expansion:
+  1 == 1
+
+Unit_Tester.cpp:955: 
+PASSED:
+  REQUIRE( list[0] == "55" )
+with expansion:
+  "55" == "55"
+
+-------------------------------------------------------------------------------
+Test removeAll(data)
+  Remove multiple occurenced from middle of list
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:958
+...............................................................................
+
+Unit_Tester.cpp:967: 
+PASSED:
+  REQUIRE( result )
+with expansion:
+  true
+
+Unit_Tester.cpp:968: 
+PASSED:
+  REQUIRE( list.getSize() == 2 )
+with expansion:
+  2 == 2
+
+Unit_Tester.cpp:969: 
+PASSED:
+  REQUIRE( list[0] == "55" )
+with expansion:
+  "55" == "55"
+
+Unit_Tester.cpp:970: 
+PASSED:
+  REQUIRE( list[1] == "55" )
+with expansion:
+  "55" == "55"
+
+-------------------------------------------------------------------------------
+Test removeAll(data)
+  BigInteger remove multiple occurences
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:973
+...............................................................................
+
+Unit_Tester.cpp:985: 
+PASSED:
+  REQUIRE( result )
+with expansion:
+  true
+
+Unit_Tester.cpp:986: 
+PASSED:
+  REQUIRE( list.getSize() == 3 )
+with expansion:
+  3 == 3
+
+Unit_Tester.cpp:987: 
+PASSED:
+  REQUIRE( list[0] == BigInteger("222222") )
+with expansion:
+  222222 == 222222
+
+Unit_Tester.cpp:988: 
+PASSED:
+  REQUIRE( list[1] == BigInteger("222222") )
+with expansion:
+  222222 == 222222
+
+Unit_Tester.cpp:989: 
+PASSED:
+  REQUIRE( list[2] == BigInteger("222222") )
+with expansion:
+  222222 == 222222
+
+-------------------------------------------------------------------------------
+Sorting
+  Empty List
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:997
+...............................................................................
+
+Unit_Tester.cpp:1002: 
+PASSED:
+  REQUIRE( list.getSize() == 0 )
+with expansion:
+  0 == 0
+
+-------------------------------------------------------------------------------
+Sorting
+  Sort
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:1005
+...............................................................................
+
+Unit_Tester.cpp:1014: 
+PASSED:
+  REQUIRE( list.getSize() == 4 )
+with expansion:
+  4 == 4
+
+Unit_Tester.cpp:1016: 
+PASSED:
+  REQUIRE( list[0] == "aardvark" )
+with expansion:
+  "aardvark" == "aardvark"
+
+Unit_Tester.cpp:1017: 
+PASSED:
+  REQUIRE( list[1] == "apple" )
+with expansion:
+  "apple" == "apple"
+
+Unit_Tester.cpp:1018: 
+PASSED:
+  REQUIRE( list[2] == "colonial" )
+with expansion:
+  "colonial" == "colonial"
+
+Unit_Tester.cpp:1019: 
+PASSED:
+  REQUIRE( list[3] == "zebra" )
+with expansion:
+  "zebra" == "zebra"
+
+-------------------------------------------------------------------------------
+Sorting
+  Sort size 1
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:1022
+...............................................................................
+
+Unit_Tester.cpp:1028: 
+PASSED:
+  REQUIRE( list.getSize() == 1 )
+with expansion:
+  1 == 1
+
+Unit_Tester.cpp:1030: 
+PASSED:
+  REQUIRE( list[0] == 55 )
+with expansion:
+  55 == 55
+
+-------------------------------------------------------------------------------
+Sorting
+  Sort BigInteger
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:1033
+...............................................................................
+
+Unit_Tester.cpp:1045: 
+PASSED:
+  REQUIRE( list.getSize() == 7 )
+with expansion:
+  7 == 7
+
+Unit_Tester.cpp:1046: 
+PASSED:
+  REQUIRE( list[0] == BigInteger("11") )
+with expansion:
+  11 == 11
+
+Unit_Tester.cpp:1047: 
+PASSED:
+  REQUIRE( list[1] == BigInteger("222") )
+with expansion:
+  222 == 222
+
+Unit_Tester.cpp:1048: 
+PASSED:
+  REQUIRE( list[2] == BigInteger("3333") )
+with expansion:
+  3333 == 3333
+
+Unit_Tester.cpp:1049: 
+PASSED:
+  REQUIRE( list[3] == BigInteger("111111") )
+with expansion:
+  111111 == 111111
+
+Unit_Tester.cpp:1050: 
+PASSED:
+  REQUIRE( list[4] == BigInteger("222222") )
+with expansion:
+  222222 == 222222
+
+Unit_Tester.cpp:1051: 
+PASSED:
+  REQUIRE( list[5] == BigInteger("333333") )
+with expansion:
+  333333 == 333333
+
+Unit_Tester.cpp:1052: 
+PASSED:
+  REQUIRE( list[6] == BigInteger("555555") )
+with expansion:
+  555555 == 555555
+
+-------------------------------------------------------------------------------
+Iterator
+  Size 3
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:1068
+...............................................................................
+
+Unit_Tester.cpp:1079: 
+PASSED:
+  REQUIRE( sum == 30 )
+with expansion:
+  30 == 30
+
+Unit_Tester.cpp:1080: 
+PASSED:
+  REQUIRE( list.getSize() == 3 )
+with expansion:
+  3 == 3
+
+-------------------------------------------------------------------------------
+Iterator
+  BigInteger iterator test
+-------------------------------------------------------------------------------
+Unit_Tester.cpp:1083
+...............................................................................
+
+Unit_Tester.cpp:1094: 
+PASSED:
+  REQUIRE( sum == BigInteger("666666") )
+with expansion:
+  666666 == 666666
+
+Unit_Tester.cpp:1095: 
+PASSED:
+  REQUIRE( list.getSize() == 3 )
+with expansion:
+  3 == 3
+
+===============================================================================
+All tests passed (172 assertions in 18 test cases)
+
