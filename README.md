@@ -1,9 +1,10 @@
 # CPP_GenericLinkedList
 
 A C++ Linked List template class and corresponding unit tests
-Kenneth White
+
 CSCD 305 8:00 Spring 18
-Assignment 100 - Putting it all together
+
+Assignment 4 - Putting it all together
 
 ### NOTE:
 	As part of the unit tests I intentionally give methods invalid indices, which are caught and thrown from the method.
