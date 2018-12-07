@@ -1,7 +1,11 @@
 # CPP_GenericLinkedList
+
 A C++ Linked List template class and corresponding unit tests
+
 Kenneth White
+
 CSCD 305 8:00 Spring 18
+
 Assignment 100 - Putting it all together
 
 ### NOTE:
